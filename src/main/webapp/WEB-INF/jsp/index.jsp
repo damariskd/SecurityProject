@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Bachelor Project</title>
 
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="../../css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <select data-placeholder="Choose a Language..." onchange="location = this.value;" >

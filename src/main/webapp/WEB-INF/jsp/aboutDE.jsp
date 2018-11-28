@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>About</title>
 
-    <link href="about_style.css" type="text/css" rel="stylesheet">
+    <link href="../../css/about_style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <select data-placeholder="Choose a Language..." onchange="location = this.value;" >
