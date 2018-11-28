@@ -36,7 +36,7 @@
 </div>
 
 
-<div >
+<div class = "intro">
     <p class="introduction">Solange sich das Internet ausdehnt, einschließlich weiter Teile unseres Lebens, wie die wirtschaftlichen und sozialen Aspekte, entwickelt sich die Cybersicherheit zu einem großen Anliegen für alle, und sie befasst sich mit der Privatsphäre, der Vertraulichkeit und weiteren Aspekten der Schwächen des Internets.  </p>
     <p class="introduction">Daher bietet diese Plattform einen theoretischen Ansatz zu den verschiedenen Arten von Angriffenund Bedrohungen, sowohl im Alltag von Menschen als auch in Unternehmensnetzwerken, mit der Hoffnung, dass sie die Menschen über das oben genannte aufklärt und informiert.</p>
 </div>
@@ -53,7 +53,7 @@
     <br>
     <li> <a href="#gdpr">Phishing</a></li>
     <br>
-    <li> <a href="malwareDe">Malware</a></li>
+    <li> <a href="malwareDE">Malware</a></li>
     <br>
     <li> <a href="#gdpr">Man-in-the-middle attack</a></li>
     <br>

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1" %>
 
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
     <title>About</title>
-    <link href="../../css/style.css" type="text/css" rel="stylesheet">
+    <link href="../../css/about_style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <select data-placeholder="Choose a Language..." onchange="location = this.value;" >
