@@ -7,13 +7,19 @@ body {
 
 h1 {
     font-family: Arial;
-  font-size: 40px;
-  font-weight:bold;
-  color: black;
+    font-size: 40px;
+    font-weight:bold;
+    color: gray;
 
-  text-align: center horizontal;
+    text-align: center horizontal;
 
 }
+
+.descr {
+
+    text-align: justify;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #E6E6E6;
@@ -135,4 +141,10 @@ font-family: Arial;
 .list {
   background-color: #ddd;
   font-weight: bold;
+}
+
+.descrTopics {
+    font-size: 20px;
+    margin: 30px 200px 50px 30px;
+    <!--padding: 5px 10px;-->
 }

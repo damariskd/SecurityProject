@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1" %>
 
 <html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org">
 
@@ -20,16 +19,16 @@
 
 <div class="topnav">
     <a href="indexDE">Startseite</a>
-    <a class="active">Über uns</a>
+    <a class="active">Uber uns</a>
     <a href="#questions">FAQ</a>
-    <input type="text" placeholder="Suchen Schlüsselwort, text..">
+    <input type="text" placeholder="Suchen SchlÃ¼sselwort, text..">
     <button type="searchbutton" name="button">suchen</button>
 </div>
 
 <div class="descr">
-    <p class="description">Der Schwerpunkt dieser Website liegt auf Angriffen und Bedrohungen, die im Cyberspace auftreten. Warum wir uns entschieden haben, in diese Richtung zu gehen, ist der Wunsch, die Menschen über die Gefahren aufzuklären, die sich im Schatten des Internets verstecken, wenn sie nicht geeignet sind, vor denen sie geschützt sind, und dass es keine gute Lösung ist, wenn die meisten unserer Lebensinformationen online sind.
+    <p class="description">Der Schwerpunkt dieser Website liegt auf Angriffen und Bedrohungen, die im Cyberspace auftreten. Warum wir uns entschieden haben, in diese Richtung zu gehen, ist der Wunsch, die Menschen Ã¼ber die Gefahren aufzuklÃ¤ren, die sich im Schatten des Internets verstecken, wenn sie nicht geeignet sind, vor denen sie geschÃ¼tzt sind, und dass es keine gute LÃ¶sung ist, wenn die meisten unserer Lebensinformationen online sind.
     </p>
-    <p class="description" >Wenn man davon spricht, dass man ignorant bleibt, ist es wichtig zu beachten, dass nicht nur Privatpersonen sich der Gefahren nicht voll bewusst sind, sondern auch Unternehmen, die selbst mit den neuen Normen die Bedrohung für die nationale Sicherheit nicht sehen.</p>
+    <p class="description" >Wenn man davon spricht, dass man ignorant bleibt, ist es wichtig zu beachten, dass nicht nur Privatpersonen sich der Gefahren nicht voll bewusst sind, sondern auch Unternehmen, die selbst mit den neuen Normen die Bedrohung fÃ¼r die nationale Sicherheit nicht sehen.</p>
 
 </div>
 

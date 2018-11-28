@@ -7,11 +7,11 @@ body {
 }
 
 h1 {
-  font-family: fantasy;
+  font-family: Arial;
   font-size: 40px;
   font-weight:bold;
   color: gray;
-  
+
   text-align: center horizontal;
 
 }
@@ -65,20 +65,22 @@ h1 {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
-    font-family: fantasy;
+    font-family: Arial;
 }
+
 
 .topnav button[type=searchbutton] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-  background-color: #BDBDBD;
-  font-family: fantasy;
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: #BDBDBD;
+    font-family: Arial;
 
 }
+
 
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -102,6 +104,6 @@ select {
   margin-top: 10px;
   margin-right: 14px;
   font-size: 17px;
-font-family: fantasy;
+font-family: Arial;
 
 }

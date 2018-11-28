@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1" %>
 <head>
     <meta charset="utf-8">
     <title>Bachelor Project</title>
