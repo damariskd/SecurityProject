@@ -17,7 +17,7 @@
 
 </select>
 
-<h1>Ontologie multilingvistica pentru cautarea atacurilor și a amenințărilor</h1>
+<h1>Ontologie multilingvistica pentru cautarea atacurilor si a amenintarilor</h1>
 
 
 <div class="topnav">
@@ -31,7 +31,7 @@
 </div>
 
 <div class="intro">
-    <p class="introduction">Pe măsură ce Internetul se extinde, inclusiv o mare parte din viețile noastre, cum ar fi aspectele economice și sociale, securitatea cibernetică devine o preocupare majoră pentru toată lumea și abordează confidențialitatea, confidențialitatea și alte aspecte ale slăbiciunilor internetului.  </p>
+    <p class="introduction">Pe masură ce Internetul se extinde, inclusiv o mare parte din viețile noastre, cum ar fi aspectele economice și sociale, securitatea cibernetică devine o preocupare majoră pentru toată lumea și abordează confidențialitatea, confidențialitatea și alte aspecte ale slăbiciunilor internetului.  </p>
     <p class="introduction">Prin urmare, această platformă oferă o abordare teoretică a diferitelor tipuri de atacuri și amenințări, atât în viața de zi cu zi a oamenilor, cât și în rețelele corporative, cu speranța că educă și informează oamenii despre cele de mai sus.</p>
 </div>
 
