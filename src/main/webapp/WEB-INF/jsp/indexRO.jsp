@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1" %>
-
-<html lang="en" dir="ltr">
+<html lang="ro" dir="ltr">
 <head>
-    <meta charset="utf-8">
+    <meta charset= "utf-8" />
     <title>Bachelor Project</title>
 
     <link href="../../css/style.css" type="text/css" rel="stylesheet">

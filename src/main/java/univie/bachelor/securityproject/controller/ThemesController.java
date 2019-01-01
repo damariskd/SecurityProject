@@ -12,4 +12,10 @@ public class ThemesController {
     public String malwareDE() { return "malwareDE"; }
     @RequestMapping(value = "/malwareRO", method = RequestMethod.GET)
     public String malwareRO() { return "malwareRO"; }
+    @RequestMapping(value = "/typesOfAttacks", method = RequestMethod.GET)
+    public String types() { return "typesOfAttacks"; }
+    @RequestMapping(value = "/typesDE", method = RequestMethod.GET)
+    public String typesDE() { return "typesOfAttacksDE"; }
+    @RequestMapping(value = "/typesRO", method = RequestMethod.GET)
+    public String typesRO() { return "typesOfAttacksRO"; }
 }

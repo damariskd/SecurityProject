@@ -24,7 +24,6 @@
     <a href="#questions">FAQ</a>
     <input type="text" placeholder="Search keywords, text..">
     <button type="searchbutton" name="button">search</button>
-
 </div>
 
 
@@ -41,7 +40,7 @@
 <ul class="topics">
     <li> <a href="#gdpr">General Data Protection Regulation</a></li>
     <br>
-    <li> <a href="#classification">Classification of Threats</a></li>
+    <li> <a href="typesOfAttacks">Classification of Threats</a></li>
     <br>
     <li> <a href="#prevention">Prevention Measures</a></li>
     <br>
