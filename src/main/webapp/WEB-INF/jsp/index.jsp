@@ -44,15 +44,18 @@
     <br>
     <li> <a href="#prevention">Prevention Measures</a></li>
     <br>
-    <li> <a href="#gdpr">Phishing</a></li>
+    <li> <a href="phishing">Phishing</a></li>
     <br>
     <li> <a href="malware">Malware</a></li>
+
+    <br>
+    <li> <a href="trojan_horse">Trojan Horse</a></li>
     <br>
     <li> <a href="#gdpr">Man-in-the-middle attack</a></li>
     <br>
     <li> <a href="#gdpr">Man-in-the-browser attack</a></li>
     <br>
-    <li> <a href="#gdpr">Denial-of-service/Distributed-denial-of-service attack (DOS/DDOS)</a></li>
+    <li> <a href="dos_ddos">Denial-of-service/Distributed-denial-of-service attack (DOS/DDOS)</a></li>
     <br>
     <li> <a href="#gdpr">SQL Injection</a></li>
     <br>

@@ -10,7 +10,7 @@ h1 {
     font-weight:bold;
     color: gray;
 
-    text-align: center horizontal;
+    text-align: center ;
 
 }
 
@@ -109,7 +109,7 @@ h1 {
 
 h2 {
   display: block;
-  color: black;
+
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
