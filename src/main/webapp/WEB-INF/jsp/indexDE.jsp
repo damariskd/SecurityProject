@@ -42,7 +42,7 @@
 <ul class="topics">
     <li> <a href="#gdpr">General Data Protection Regulation</a></li>
     <br>
-    <li> <a href="#classification">Classification of Threats</a></li>
+    <li> <a href="typesOfAttacksDE">Classification of Threats</a></li>
     <br>
     <li> <a href="#prevention">Prevention Measures</a></li>
     <br>

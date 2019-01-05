@@ -28,8 +28,8 @@
 <body>
 <select data-placeholder="Choose a Language..." onchange="location = this.value;" >
     <option value="typesOfAttacks">  English</option>
-    <option value="typesDE">German</option>
-    <option value="typesRO">Romanian</option>
+    <option value="typesOfAttacksDE">German</option>
+    <option value="typesOfAttacksRO">Romanian</option>
 </select>
 <h1>Types of attacks and threats</h1>
 
