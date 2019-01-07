@@ -21,14 +21,19 @@
 <div class="topnav">
     <a class="active" href="#home">Home</a>
     <a href="about">About</a>
-    <a href="#questions">FAQ</a>
-    <input type="text" placeholder="Search keywords, text..">
-    <button type="searchbutton" name="button">search</button>
-</div>
 
 
 
 
+ <!--   <ul id="myUL" >
+        <li style="display:none "><a href="malware">Malware</a></li>
+        <li style="display:none"><a href="phishing">Phishing</a></li>
+        <li style="display:none" ><a href="trojan_horse">Trojan Horse</a></li>
+        <li style="display:none" ><a href="dos_ddos">Denial-of-Service</a></li>
+        <li style="display:none"><a href="typesOfAttacks">Types of Attacks</a></li>
+
+    </ul> -->
+ </div>
 <div class="intro">
 
     <p class="introduction">As long as the internet expands, including broader parts of our life, like the economic and social aspects, the cybersecurity is developed into a major concern for everyone and it deals with privacy, confidentiality and more aspects of the weaknesses of the internet.  </p>
@@ -37,39 +42,113 @@
 </div>
 
 <h2 class="list">List of Topics:</h2>
-<ul class="topics">
-    <li> <a href="#gdpr">General Data Protection Regulation</a></li>
-    <br>
-    <li> <a href="typesOfAttacks">Classification of Threats</a></li>
-    <br>
-    <li> <a href="#prevention">Prevention Measures</a></li>
-    <br>
-    <li> <a href="phishing">Phishing</a></li>
-    <br>
-    <li> <a href="malware">Malware</a></li>
+<input type="text" list="myUL" id="myInput" class="search_input" onkeyup="myFunction()" placeholder="Search keywords, text..">
 
+<br><br>
+
+<ul id="myUL" >
+    <li><a href="malware">Malware</a></li>
     <br>
-    <li> <a href="trojan_horse">Trojan Horse</a></li>
+    <li><a href="phishing">Phishing</a></li>
     <br>
-    <li> <a href="#gdpr">Man-in-the-middle attack</a></li>
+    <li><a href="typesOfAttacks">Types of attacks</a></li>
     <br>
-    <li> <a href="#gdpr">Man-in-the-browser attack</a></li>
+    <li><a href="trojan_horse.">Trojan Horses</a></li>
     <br>
-    <li> <a href="dos_ddos">Denial-of-service/Distributed-denial-of-service attack (DOS/DDOS)</a></li>
+    <li><a href="dos_ddos">Distributed-Denial-of-Service</a></li>
     <br>
-    <li> <a href="#gdpr">SQL Injection</a></li>
+    <li><a href="dos_ddos">Denial-of-Service</a></li>
     <br>
-    <li> <a href="#gdpr">Ransomware</a></li>
+    <li><a href="#">Man-in-the-middle attack</a></li>
     <br>
-    <li> <a href="#gdpr">Cyberwarfare and Cybercrime</a></li>
+    <li><a href="#">Man-in-the-browser attack</a></li>
     <br>
-    <li> <a href="#gdpr">Spoofing</a></li>
+    <li><a href="#">Ransomware</a></li>
     <br>
-    <li> <a href="#gdpr">Ping of death</a></li>
+    <li><a href="#">IP Spoofing</a></li>
     <br>
-    <li> <a href="#gdpr">Smurf attack</a></li>
+    <li><a href="#">Ping of death</a></li>
     <br>
+    <li><a href="#">Smurf attack</a></li>
+
 </ul>
+
+
+
+
+<script>
+    function myFunction() {
+
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+
+        for (i = 0; i < li.length; i++) {
+
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
+
+<style>
+
+
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    #myInput{
+        color: black;
+        font-size:15px ;
+        border: 0;
+        outline: 0;
+        background:  white;
+        width: 100%;
+        line-height: 40px;
+        transition: width 0.4s linear;
+
+    }
+    #myInput:hover > .search_input{
+        padding: 0 10px;
+        width: 450px;
+        transition: width 0.4s linear;
+    }
+    #myUL {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #myUL li a {
+
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        display: list-item;
+    }
+
+    #myUL li a:hover:not(.header) {
+        background-color: #eee;
+    }
+
+
+
+
+
+</style>
+
 
 </body>
 </html>

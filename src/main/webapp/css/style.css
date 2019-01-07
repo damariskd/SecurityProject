@@ -50,8 +50,8 @@ h1 {
 }
 
 /* Style the search box inside the navigation bar */
-.topnav input[type=text] {
-    float: right;
+#myInput [type=text] {
+    float: left;
     padding: 6px;
     border: none;
     margin-top: 8px;
@@ -147,4 +147,5 @@ font-family: Arial;
     margin: 30px 200px 50px 30px;
     <!--padding: 5px 10px;-->
 }
+
 

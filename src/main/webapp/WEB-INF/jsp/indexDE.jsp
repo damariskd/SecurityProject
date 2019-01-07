@@ -23,10 +23,10 @@
 <div class="topnav">
     <a class="active" href="#home">Startseite</a>
     <a href="aboutDE">Uber uns</a>
-    <a href="#questions">FAQ</a>
-    <input type="text" placeholder="Suchen Schlüsselwort, text..">
-    <button type="searchbutton" name="button" style ="font-family: Arial; font-weight: normal;">suchen</button>
 
+  <!--  <input type="text" placeholder="Suchen Schlüsselwort, text..">
+    <button type="searchbutton" name="button" style ="font-family: Arial; font-weight: normal;">suchen</button>
+-->
 
 </div>
 
@@ -39,38 +39,112 @@
 
 
 <h2 class="list">Themenliste:</h2>
-<ul class="topics">
-    <li> <a href="#gdpr">General Data Protection Regulation</a></li>
+<input type="text" list="myUL" id="myInput" class="search_input" onkeyup="myFunction()" placeholder="Search keywords, text..">
+
+<br><br>
+
+<ul id="myUL" >
+    <li><a href="malware">Malware</a></li>
     <br>
-    <li> <a href="typesOfAttacksDE">Classification of Threats</a></li>
+    <li><a href="phishing">Phishing</a></li>
     <br>
-    <li> <a href="#prevention">Prevention Measures</a></li>
+    <li><a href="typesOfAttacks">Types of attacks</a></li>
     <br>
-    <li> <a href="phishingDE">Phishing</a></li>
+    <li><a href="trojan_horse.">Trojan Horses</a></li>
     <br>
-    <li> <a href="malwareDE">Malware</a></li>
+    <li><a href="dos_ddos">Distributed-Denial-of-Service</a></li>
     <br>
-    <li> <a href="trojan_horseDE">Trojan Horse</a></li>
+    <li><a href="dos_ddos">Denial-of-Service</a></li>
     <br>
-    <li> <a href="#gdpr">Man-in-the-middle attack</a></li>
+    <li><a href="#">Man-in-the-middle attack</a></li>
     <br>
-    <li> <a href="#gdpr">Man-in-the-browser attack</a></li>
+    <li><a href="#">Man-in-the-browser attack</a></li>
     <br>
-    <li> <a href="dos_ddosDE">Denial-of-service/Distributed-denial-of-service attack (DOS/DDOS)</a></li>
+    <li><a href="#">Ransomware</a></li>
     <br>
-    <li> <a href="#gdpr">SQL Injection</a></li>
+    <li><a href="#">IP Spoofing</a></li>
     <br>
-    <li> <a href="#gdpr">Ransomware</a></li>
+    <li><a href="#">Ping of death</a></li>
     <br>
-    <li> <a href="#gdpr">Cyberwarfare and Cybercrime</a></li>
-    <br>
-    <li> <a href="#gdpr">Spoofing</a></li>
-    <br>
-    <li> <a href="#gdpr">Ping of death</a></li>
-    <br>
-    <li> <a href="#gdpr">Smurf attack</a></li>
-    <br>
+    <li><a href="#">Smurf attack</a></li>
+
 </ul>
+
+
+
+<script>
+    function myFunction() {
+
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+
+        for (i = 0; i < li.length; i++) {
+
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
+
+<style>
+
+
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    #myInput{
+        color: black;
+        font-size:15px ;
+        border: 0;
+        outline: 0;
+        background:  white;
+        width: 100%;
+        line-height: 40px;
+        transition: width 0.4s linear;
+
+    }
+    #myInput:hover > .search_input{
+        padding: 0 10px;
+        width: 450px;
+        transition: width 0.4s linear;
+    }
+    #myUL {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #myUL li a {
+
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        display: list-item;
+    }
+
+    #myUL li a:hover:not(.header) {
+        background-color: #eee;
+    }
+
+
+
+
+
+</style>
+
 
 </body>
 </html>

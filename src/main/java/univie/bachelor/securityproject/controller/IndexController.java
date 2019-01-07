@@ -18,4 +18,15 @@ public class IndexController {
     public String indexRO() {
         return "indexRO";
     }
+
+    @RequestMapping(value = "/indexTest", method = RequestMethod.GET)
+    public String indexTest() {
+        return "indexTest";
+    }
+
+    @RequestMapping(value = "/indexSearch", method = RequestMethod.GET)
+    public String indexSearch() {
+        return "indexSearch";
+    }
 }
+

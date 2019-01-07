@@ -1,34 +1,51 @@
 <!DOCTYPE html>
-<style>
-    .searchbar{
-        margin-bottom: auto;
-        margin-top: auto;
-        height: 60px;
-        width: 100%;
-        background-color: #EFF8FB;
-        border-radius: 30px;
-        padding: 10px;
-    }
 
-    .search_input{
-        color: black;
-        border: 0;
-        outline: 0;
-        background:  #E6E6E6;
-        width: 60%;
-        line-height: 40px;
-        transition: width 0.4s linear;
-    }
 
-    .searchbar:hover > .search_input{
-        padding: 0 10px;
-        width: 450px;
-        transition: width 0.4s linear;
-    }
-</style>
 
 <html lang="de" dir="ltr">
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1" %>
+ <style>
+
+
+* {
+box-sizing: border-box;
+}
+
+
+#myInput{
+float: right;
+color: black;
+font-size:10px ;
+border: 0;
+outline: 0;
+background:  white;
+width: 20%;
+line-height: 20px;
+transition: width 0.4s linear;
+
+}
+
+#myUL {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#myUL li a {
+float: right;
+
+text-decoration: none;
+font-size: 15px;
+color: black;
+display: list-item;
+}
+
+#myUL li a:hover:not(.header) {
+background-color: #eee;
+}
+
+ </style>
+
 
 <head>
     <meta charset="utf-8">
@@ -48,14 +65,28 @@
 <div class="topnav">
     <a href="indexDE">Startseite</a>
     <a class="active">Uber uns</a>
-    <a href="#questions">FAQ</a>
+
+
+
+    <input type="text" list="myUL" id="myInput" class="search_input" onkeyup="myFunction()" placeholder="Search keywords, text..">
+    <br><br>
+
+    <ul id="myUL" >
+        <li style="display:none"><a href="malware">Malware</a></li>
+        <li  style="display:none"><a href="phishing">Phishing</a></li>
+
+        <li  style="display:none"><a href="typesOfAttacks">Types of attacks</a></li>
+        <li  style="display:none"><a href="trojan_horse.">Trojan Horses</a></li>
+
+        <li  style="display:none"><a href="dos_ddos">Distributed-Denial-of-Service</a></li>
+        <li  style="display:none"><a href="dos_ddos">Denial-of-Service</a></li>
+
+    </ul>
+
 </div>
 <br><br>
 
-<div style="text-align: left" class="searchbar">
-    <input type="text" class="search_input" placeholder="Keywords, text suchen...">
-    <button style="width: 100px; height: 30px" type="searchbutton" name="button">Suchen</button>
-</div>
+
 
 <div class="descr">
     <p class="description">Der Schwerpunkt dieser Website liegt auf Angriffen und Bedrohungen, die im Cyberspace auftreten. Warum wir uns entschieden haben, in diese Richtung zu gehen, ist der Wunsch, die Menschen über die Gefahren aufzuklären, die sich im Schatten des Internets verstecken, wenn sie nicht geeignet sind, vor denen sie geschützt sind, und dass es keine gute Lösung ist, wenn die meisten unserer Lebensinformationen online sind.
@@ -67,6 +98,31 @@
 <div>
     <p th:text="name"></p>
 </div>
+
+
+</div>
+<script>
+    function myFunction() {
+
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+
+        for (i = 0; i < li.length; i++) {
+
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
 
 </body>
 </html>
