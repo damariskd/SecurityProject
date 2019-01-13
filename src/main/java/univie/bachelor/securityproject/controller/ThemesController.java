@@ -41,5 +41,19 @@ public class ThemesController {
     public String dos_ddosDE() { return "dos_ddosDE"; }
     @RequestMapping(value = "/dos_ddosRO", method = RequestMethod.GET)
     public String dos_ddosRO() { return "dos_ddosRO"; }
+
+    @RequestMapping(value = "/ransomware", method = RequestMethod.GET)
+    public String ransomware() { return "ransomware"; }
+    @RequestMapping(value = "/ransomwareDE", method = RequestMethod.GET)
+    public String ransomwareDE() { return "ransomwareDE"; }
+    @RequestMapping(value = "/ransomwareRO", method = RequestMethod.GET)
+    public String ransomwareRO() { return "ransomwareRO"; }
+
+    @RequestMapping(value = "/smurfattack", method = RequestMethod.GET)
+    public String smurfattack() { return "smurfattack"; }
+    @RequestMapping(value = "/smurfattackDE", method = RequestMethod.GET)
+    public String smurfattackDE() { return "smurfattackDE"; }
+    @RequestMapping(value = "/smurfattackRO", method = RequestMethod.GET)
+    public String smurfattackRO() { return "smurfattackRO"; }
 }
 

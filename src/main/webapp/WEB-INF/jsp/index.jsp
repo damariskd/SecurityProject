@@ -63,13 +63,13 @@
     <br>
     <li><a href="#">Man-in-the-browser attack</a></li>
     <br>
-    <li><a href="#">Ransomware</a></li>
+    <li><a href="ransomware">Ransomware</a></li>
     <br>
     <li><a href="#">IP Spoofing</a></li>
     <br>
     <li><a href="#">Ping of death</a></li>
     <br>
-    <li><a href="#">Smurf attack</a></li>
+    <li><a href="smurfattack">Smurf attack</a></li>
 
 </ul>
 

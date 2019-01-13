@@ -38,29 +38,29 @@
 <br><br>
 
 <ul id="myUL" >
-    <li><a href="malware">Malware</a></li>
+    <li><a href="malwareRO">Malware</a></li>
     <br>
-    <li><a href="phishing">Phishing</a></li>
+    <li><a href="phishingRO">Phishing</a></li>
     <br>
-    <li><a href="typesOfAttacks">Types of attacks</a></li>
+    <li><a href="typesOfAttacksRO">Types of attacks</a></li>
     <br>
-    <li><a href="trojan_horse.">Trojan Horses</a></li>
+    <li><a href="trojan_horseRO">Trojan Horses</a></li>
     <br>
-    <li><a href="dos_ddos">Distributed-Denial-of-Service</a></li>
+    <li><a href="dos_ddosRO">Distributed-Denial-of-Service</a></li>
     <br>
-    <li><a href="dos_ddos">Denial-of-Service</a></li>
+    <li><a href="dos_ddosRO">Denial-of-Service</a></li>
     <br>
     <li><a href="#">Man-in-the-middle attack</a></li>
     <br>
     <li><a href="#">Man-in-the-browser attack</a></li>
     <br>
-    <li><a href="#">Ransomware</a></li>
+    <li><a href="ransomwareRO">Ransomware</a></li>
     <br>
     <li><a href="#">IP Spoofing</a></li>
     <br>
     <li><a href="#">Ping of death</a></li>
     <br>
-    <li><a href="#">Smurf attack</a></li>
+    <li><a href="smurfattackRO">Smurf attack</a></li>
 
 </ul>
 
